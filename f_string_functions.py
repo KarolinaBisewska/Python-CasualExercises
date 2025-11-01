@@ -7,9 +7,10 @@
 # ^ Center
 # = Force the padding to be placed between the sign and the digits (numbers only)
 
+amount = 5
 print(f"{'abc':<10}+r")  # output:  |abc       +r|
 print(f"{'abc':>10}+r")  # output:  |       abc+r|
 print(f"{'abc':^10}+r")  # output:  |   abc    +r|
 print(f"{-123:=10}+r")   # output:  |-      123+r|
-
+print(f"{amount:>3} {'max':>10}")   # output:  |  5        max|
 
