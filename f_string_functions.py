@@ -1,4 +1,6 @@
-#All f-string functions
+# All f-string functions
+# The general shape is: f"{value:<alignment>signwidth,group.typeprecision}"
+
 
 value = 123
 
