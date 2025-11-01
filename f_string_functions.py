@@ -6,8 +6,9 @@
 # ^ Center
 # = Force the padding to be placed between the sign and the digits (numbers only)
 
+print(f"{'abc':<10}+r")  output:  |abc       +r|
+print(f"{'abc':>10}+r")  output:  |       abc+r|
+print(f"{'abc':^10}+r")  output:  |   abc    +r|
+print(f"{-123:=10}+r")   output:  |-      123+r|
 
 
-value = 123
-
-print(f"{value:<10}")
