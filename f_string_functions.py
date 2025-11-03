@@ -23,8 +23,11 @@ print(f"{amount:*>10}")   # output:  |*********5|
 print(f"{'view'}{amount:10}")    # output:  |view         5|
 
     # 4. Sign handling (+ - space)
-    #     + Always show sign (+ for positive, - for negative)
-    #     - Only show - for negative (default for numbers)
+    #         +     Always show sign (+ for positive, - for negative)
+    #         -     Only show - for negative (default for numbers)
+    #     (space)   Positive numbers get a leading space (useful for alignment)
+
+
 
 
 
