@@ -15,7 +15,29 @@ print(f"{-123:=10}+r")   # output:  |-      123+r|
 print(f"{amount:>3} {'max':>10}")   # output:  |  5        max|
 
     # 2. Fill character (any char except { })
+
 print(f"{amount:*>10}")   # output:  |*********5|
+
+    # 3. Width (minimum field width)
+
+print(f"{'view'}{amount:10}")    # output:  |view         5|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
