@@ -8,6 +8,7 @@
     # = Force the padding to be placed between the sign and the digits (numbers only)
 
 amount = 5
+
 print(f"{'abc':<10}+r")  # output:  |abc       +r|
 print(f"{'abc':>10}+r")  # output:  |       abc+r|
 print(f"{'abc':^10}+r")  # output:  |   abc    +r|
