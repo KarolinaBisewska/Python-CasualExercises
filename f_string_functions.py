@@ -27,7 +27,10 @@ print(f"{'view'}{amount:10}")    # output:  |view         5|
     #         -     Only show - for negative (default for numbers)
     #     (space)   Positive numbers get a leading space (useful for alignment)
 
-
+print(f"{12:+}")        # output:  |+12|   
+print(f"{12: }")        # output:  | 12|   
+print(f"{-12: }")       # output:  |-12|  
+print(f"{amount: }")    # output:  | 5|
 
 
 
