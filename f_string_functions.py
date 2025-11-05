@@ -33,6 +33,8 @@ print(f"{12: }")        # output:  | 12|
 print(f"{-12: }")       # output:  |-12|  
 print(f"{amount: }")    # output:  | 5|
 
+    # 5. 
+
 
 
 
